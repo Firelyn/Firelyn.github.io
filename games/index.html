@@ -69,24 +69,29 @@
         .spacer {
             height: 50px;
         }
-        .info-section {
+        .info-section-2 {
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             margin-top: 20px;
             font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
         }
-        .info-section .text {
-            text-align: center;
+        .info-section-2 img {
+            margin-right: 20px;
+            flex-shrink: 0;
         }
-        .info-section .text h2 {
+        .info-section-2 .text {
+            text-align: left;
+            font-family: 'Pixel Operator Mono Regular', Arial, sans-serif;
+            width: 60%; /* Adjust as necessary */
+        }
+        .info-section-2 .text h2 {
             font-size: 32px;
             margin: 0;
             font-weight: normal;
+            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
         }
-        .info-section .text p {
-            font-family: 'Pixel Operator Mono Regular', Arial, sans-serif;
+        .info-section-2 .text p {
             font-size: 24px;
             margin: 0;
         }
@@ -108,26 +113,6 @@
             border-top: 6px solid yellow;
             position: relative;
         }
-        .info-section-2 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20px;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
-        }
-        .info-section-2 img {
-            margin-right: 20px;
-        }
-        .info-section-2 .text {
-            text-align: left;
-            font-family: 'Pixel Operator Mono Regular', Arial, sans-serif;
-        }
-        .info-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 50px;
-        }
     </style>
 </head>
 <body>
@@ -142,40 +127,34 @@
             GAMES
         </div>
         <div class="spacer" style="height: 25px;"></div>
-        <div class="info-container">
-            <div class="info-section-2">
-                <img src="IOEImage.png" alt="Increment of Everything Image" width="384" height="216">
-                <div class="text">
-                    <h2>INCREMENT OF EVERYTHING</h2>
-                    <p>A INCREMENTAL GAME</p>
-                    <div class="spacer" style="height: 25px;"></div>
-                    <p>STATUS:</p>
-                    <p class="status-released">RELEASED</p>
-                </div>
+        <div class="info-section-2">
+            <img src="IOEImage.png" alt="Increment of Everything Image" width="384" height="216">
+            <div class="text">
+                <h2>INCREMENT OF EVERYTHING</h2>
+                <p>A INCREMENTAL GAME</p>
+                <div class="spacer" style="height: 25px;"></div>
+                <p>STATUS:</p>
+                <p class="status-released">RELEASED</p>
             </div>
         </div>
-        <div class="info-container">
-            <div class="info-section-2">
-                <img src="TaskEscapeImage.png" alt="Task Escape Image" width="384" height="216">
-                <div class="text">
-                    <h2>TASK ESCAPE</h2>
-                    <p>A HORROR GAME</p>
-                    <div class="spacer" style="height: 25px;"></div>
-                    <p>STATUS:</p>
-                    <p class="status-released">RELEASED</p>
-                </div>
+        <div class="info-section-2">
+            <img src="TaskEscapeImage.png" alt="Task Escape Image" width="384" height="216">
+            <div class="text">
+                <h2>TASK ESCAPE</h2>
+                <p>A HORROR GAME</p>
+                <div class="spacer" style="height: 25px;"></div>
+                <p>STATUS:</p>
+                <p class="status-released">RELEASED</p>
             </div>
         </div>
-        <div class="info-container">
-            <div class="info-section-2">
-                <img src="NoImage.png" alt="No Image Currently" width="384" height="216">
-                <div class="text">
-                    <h2>RAISE A PUPPY</h2>
-                    <p>A INCREMENTAL GAME</p>
-                    <div class="spacer" style="height: 25px;"></div>
-                    <p>STATUS:</p>
-                    <p class="status-soon">SOON</p>
-                </div>
+        <div class="info-section-2">
+            <img src="NoImage.png" alt="No Image Currently" width="384" height="216">
+            <div class="text">
+                <h2>RAISE A PUPPY</h2>
+                <p>A INCREMENTAL GAME</p>
+                <div class="spacer" style="height: 25px;"></div>
+                <p>STATUS:</p>
+                <p class="status-soon">SOON</p>
             </div>
         </div>
     </div>
