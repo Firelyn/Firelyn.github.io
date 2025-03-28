@@ -7,16 +7,16 @@
     <link rel="icon" type="image/png" href="../WebIcon.png">
     <style>
         @font-face {
-            font-family: 'Pixel Operator Mono Bold';
+            font-family: 'PixelOperatorBold';
             src: url("../8bitOperatorPlus-Bold.ttf");
         }
         @font-face {
-            font-family: 'Pixel Operator Mono Regular';
+            font-family: 'PixelOperatorRegular';
             src: url("../8bitOperatorPlus-Regular.ttf");
         }
         body {
             margin: 0;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
             background-color: black;
             color: white;
             display: flex;
@@ -41,6 +41,7 @@
             display: inline-block;
             transition: color 0.3s;
             text-transform: uppercase;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
             font-size: 18px;
         }
         .navbar a:hover {
@@ -54,7 +55,7 @@
             padding: 100px 20px 20px;
             text-align: center;
         }
-        .title {
+        .main-title {
             font-size: 56px;
             margin-bottom: 20px;
             color: yellow;
@@ -62,25 +63,25 @@
         .spacer {
             height: 50px;
         }
-        .game-section {
+        .info-section {
             display: flex;
             align-items: center;
             justify-content: center;
             margin-top: 20px;
         }
-        .game-section img {
+        .info-section img {
             margin-right: 20px;
             flex-shrink: 0;
         }
-        .game-section .details {
+        .info-section .details {
             text-align: left;
             width: 27%;
         }
-        .game-section .details h2 {
+        .info-section .details h2 {
             font-size: 32px;
             margin: 0;
         }
-        .game-section .details p {
+        .info-section .details p {
             font-size: 24px;
             margin: 0;
         }
@@ -105,17 +106,17 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="https://firelyn.github.io" id="home">home</a>
-        <a href="https://firelyn.github.io/games" id="games">games</a>
-        <a href="https://firelyn.github.io/letters" id="letters">letters</a>
-        <a href="https://firelyn.github.io/other" id="other">other</a>
+        <a href="https://firelyn.github.io" id="home">Home</a>
+        <a href="https://firelyn.github.io/games" id="games">Games</a>
+        <a href="https://firelyn.github.io/letters" id="letters">Letters</a>
+        <a href="https://firelyn.github.io/other" id="other">Other</a>
     </div>    
     <div class="content">
-        <div class="title">
+        <div class="main-title">
             GAMES
         </div>
         <div class="spacer"></div>
-        <div class="game-section">
+        <div class="info-section">
             <img src="IOEImage.png" alt="Increment of Everything Image" width="384" height="216">
             <div class="details">
                 <h2>INCREMENT OF EVERYTHING</h2>
@@ -125,7 +126,7 @@
                 <p class="status-released">RELEASED</p>
             </div>
         </div>
-        <div class="game-section">
+        <div class="info-section">
             <img src="TaskEscapeImage.png" alt="Task Escape Image" width="384" height="216">
             <div class="details">
                 <h2>TASK ESCAPE</h2>
@@ -135,7 +136,7 @@
                 <p class="status-released">RELEASED</p>
             </div>
         </div>
-        <div class="game-section">
+        <div class="info-section">
             <img src="NoImage.png" alt="Raise a Puppy Image" width="384" height="216">
             <div class="details">
                 <h2>RAISE A PUPPY</h2>
@@ -145,7 +146,7 @@
                 <p class="status-soon">SOON</p>
             </div>
         </div>
-        <div class="game-section">
+        <div class="info-section">
             <img src="NoImage.png" alt="Waylight Image" width="384" height="216">
             <div class="details">
                 <h2>WAYLIGHT</h2>
