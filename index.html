@@ -18,25 +18,26 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: start; /* Changed from space-between to start */
-            height: 100vh;
         }
-        .navbar, .downbar {
+        .navbar {
             width: 100%;
             background-color: #000;
             color: white;
             text-align: center;
             padding: 10px 0;
             position: fixed;
+            top: 0;
+            border-bottom: 6px solid white;
             z-index: 1000;
         }
-        .navbar {
-            top: 0;
-            border-bottom: 6px solid white; /* Border only at the bottom */
-        }
         .downbar {
-            bottom: 0;
-            border-top: 6px solid white; /* Border only at the top */
+            width: 100%;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 6px solid white;
+            margin-top: auto;
         }
         .navbar a {
             color: white;
@@ -62,16 +63,15 @@
         }
         .content {
             flex: 1;
-            padding: 60px 20px; /* Reduced padding from 100px to 60px */
+            padding: 100px 20px;
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start; /* Changed from center to flex-start */
+            justify-content: center;
         }
         .combined-text {
             font-size: 48px;
-            margin-top: 60px; /* Added margin-top to position below the navbar */
             margin-bottom: 20px;
         }
         .combined-text span {
@@ -79,27 +79,24 @@
             font-size: 24px;
         }
         .spacer {
-            height: 50px; /* Adjust the height as needed */
+            height: 50px;
         }
         .info-section {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 20px; /* Reduced margin-top from 50px to 20px */
-        }
-        .info-section img {
-            margin-right: 20px;
-            max-width: 600px; /* Increased the size from 100px to 150px */
+            margin-top: 50px;
         }
         .info-section .text {
-            text-align: left;
+            text-align: center;
         }
         .info-section .text h2 {
             font-size: 32px;
             margin: 0;
         }
         .info-section .text p {
-            font-size: 16px;
+            font-size: 24px;
             margin: 0;
         }
     </style>
@@ -116,18 +113,16 @@
             FIRELYN'S SHOWTIME
             <span>WEBSITE</span>
         </div>
+        <div class="spacer"></div>
         <div class="info-section">
-            <img src="ImageInfo.png" alt="Image">
             <div class="text">
                 <h2>What is this website?</h2>
-                <p>This is a website I created to share the games
-                <p>and projects I've made in the past,<p>
-                <p>as well as what you can expect from me in the future!</p>
+                <p>test</p>
             </div>
         </div>
     </div>
     <div class="downbar">
-        Firelyn's Showtime 2025
+        Firelyn's Showtime 2025-2025 By Firelyn
     </div>
 </body>
 </html>
