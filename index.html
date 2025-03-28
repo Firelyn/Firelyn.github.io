@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <style>
+        @font-face {
+            font-family: 'PixelOperatorBold';
+            src: url('path/to/PixelOperator-Bold.ttf') format('truetype');
+        }
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
         }
         .navbar {
             position: fixed;
@@ -24,9 +28,10 @@
             text-decoration: none;
             padding: 14px 20px;
             display: inline-block;
+            transition: color 0.3s;
         }
         .navbar a:hover {
-            background-color: #575757;
+            color: #ff0000; /* Replace this with your desired hover color */
         }
         .content {
             padding: 60px 20px; /* Add padding to avoid content being hidden under the navbar */
