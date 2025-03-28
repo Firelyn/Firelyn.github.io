@@ -6,13 +6,19 @@
     <title>FIRELYN'S SHOWTIME</title>
     <link rel="icon" type="image/png" href="spamton_battle.png">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Pixel+Operator+Mono+Bold&display=swap');
+        @font-face {
+            font-family: 'Pixel Operator Mono Bold';
+            src: url('path/to/your/font/PixelOperatorMono-Bold.ttf') format('truetype');
+        }
 
         body {
             margin: 0;
             font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
             background-color: black;
             color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .navbar {
             position: fixed;
@@ -48,6 +54,7 @@
         }
         .content {
             padding: 60px 20px;
+            text-align: center;
         }
     </style>
 </head>
