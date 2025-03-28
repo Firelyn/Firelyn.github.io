@@ -18,7 +18,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: start; /* Changed from space-between to start */
             height: 100vh;
         }
         .navbar, .downbar {
@@ -62,15 +62,16 @@
         }
         .content {
             flex: 1;
-            padding: 100px 20px;
+            padding: 60px 20px; /* Reduced padding from 100px to 60px */
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start; /* Changed from center to flex-start */
         }
         .combined-text {
             font-size: 48px;
+            margin-top: 60px; /* Added margin-top to position below the navbar */
             margin-bottom: 20px;
         }
         .combined-text span {
@@ -84,11 +85,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 50px;
+            margin-top: 20px; /* Reduced margin-top from 50px to 20px */
         }
         .info-section img {
             margin-right: 20px;
-            max-width: 100px; /* Adjust the size as needed */
+            max-width: 300px; /* Increased the size from 100px to 150px */
         }
         .info-section .text {
             text-align: left;
