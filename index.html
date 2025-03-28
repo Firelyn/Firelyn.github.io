@@ -17,7 +17,7 @@
             color: white;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            min-height: 100vh;
         }
         .navbar {
             width: 100%;
@@ -27,17 +27,8 @@
             padding: 10px 0;
             position: fixed;
             top: 0;
-            border-bottom: 6px solid white;
+            border-bottom: 6px solid white; /* Border only at the bottom */
             z-index: 1000;
-        }
-        .downbar {
-            width: 100%;
-            background-color: #000;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            border-top: 6px solid white;
-            margin-top: auto;
         }
         .navbar a {
             color: white;
@@ -79,7 +70,7 @@
             font-size: 24px;
         }
         .spacer {
-            height: 50px;
+            height: 50px; /* Adjust the height as needed */
         }
         .info-section {
             display: flex;
@@ -99,6 +90,15 @@
             font-size: 24px;
             margin: 0;
         }
+        .downbar {
+            width: 100%;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 6px solid white; /* Border only at the top */
+            position: relative;
+        }
     </style>
 </head>
 <body>
@@ -117,12 +117,14 @@
         <div class="info-section">
             <div class="text">
                 <h2>What is this website?</h2>
-                <p>test</p>
+                <p>This is a website I created to share the games
+                <p>and projects I've made in the past,<p>
+                <p>as well as what you can expect from me in the future!</p>
             </div>
         </div>
     </div>
     <div class="downbar">
-        Firelyn's Showtime 2025-2025 By Firelyn
+        Firelyn's Showtime 2025
     </div>
 </body>
 </html>
