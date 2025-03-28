@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 60px 20px; /* Add padding to avoid content being hidden under the navbar */
+        }
+    </style>
 </head>
 <body>
-    <h1>Hi</h1>
+    <div class="navbar">
+        <a href="#main">main</a>
+        <a href="#games">games</a>
+        <a href="#letters">letters</a>
+        <a href="#other">other</a>
+    </div>
+    <div class="content">
+        <h1>Hi</h1>
+        <p>Welcome to the website!</p>
+    </div>
 </body>
 </html>
