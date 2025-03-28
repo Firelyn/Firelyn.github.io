@@ -7,16 +7,16 @@
     <link rel="icon" type="image/png" href="WebIcon.png">
     <style>
         @font-face {
-            font-family: 'Pixel Operator Mono Bold';
+            font-family: 'PixelOperatorBold';
             src: url("./8bitOperatorPlus-Bold.ttf");
         }
         @font-face {
-            font-family: 'Pixel Operator Mono Regular';
+            font-family: 'PixelOperatorRegular';
             src: url("./8bitOperatorPlus-Regular.ttf");
         }
         body {
             margin: 0;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
             background-color: black;
             color: white;
             display: flex;
@@ -41,7 +41,7 @@
             display: inline-block;
             transition: color 0.3s;
             text-transform: uppercase;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
             font-size: 18px;
         }
         .navbar a:hover {
@@ -61,16 +61,13 @@
             padding: 100px 20px 20px;
             text-align: center;
         }
-        .combined-text {
+        .main-title {
             font-size: 56px;
             margin-bottom: 20px;
         }
-        .combined-text span {
+        .main-title span {
             display: block;
             font-size: 28px;
-        }
-        .spacer {
-            height: 50px;
         }
         .info-section {
             display: flex;
@@ -78,7 +75,7 @@
             align-items: center;
             justify-content: center;
             margin-top: 20px;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
         }
         .info-section .text {
             text-align: center;
@@ -89,11 +86,11 @@
             font-weight: normal;
         }
         .info-section .text p {
-            font-family: 'Pixel Operator Mono Regular', Arial, sans-serif;
+            font-family: 'PixelOperatorRegular', Arial, sans-serif;
             font-size: 24px;
             margin: 0;
         }
-        .downbar {
+        .footer {
             width: 100%;
             background-color: #000;
             color: white;
@@ -107,22 +104,21 @@
             align-items: center;
             justify-content: center;
             margin-top: 20px;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
+            font-family: 'PixelOperatorBold', Arial, sans-serif;
         }
         .info-section-2 h2 {
             font-size: 32px;
             margin: 0 20px 0 0;
             font-weight: normal;
-            font-family: 'Pixel Operator Mono Bold', Arial, sans-serif;
         }
         .info-section-2 img {
             margin-right: 20px;
         }
         .info-section-2 .text {
             text-align: left;
-            font-family: 'Pixel Operator Mono Regular', Arial, sans-serif;
         }
         .info-section-2 .text p {
+            font-family: 'PixelOperatorRegular', Arial, sans-serif;
             font-size: 24px;
             margin: 0;
         }
@@ -130,17 +126,16 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="https://firelyn.github.io" id="home">home</a>
-        <a href="https://firelyn.github.io/games" id="games">games</a>
-        <a href="https://firelyn.github.io/letters" id="letters">letters</a>
-        <a href="https://firelyn.github.io/other" id="other">other</a>
+        <a href="https://firelyn.github.io" id="home">Home</a>
+        <a href="https://firelyn.github.io/games" id="games">Games</a>
+        <a href="https://firelyn.github.io/letters" id="letters">Letters</a>
+        <a href="https://firelyn.github.io/other" id="other">Other</a>
     </div>
     <div class="content">
-        <div class="combined-text">
+        <div class="main-title">
             FIRELYN'S SHOWTIME
             <span>WEBSITE</span>
         </div>
-        <div class="spacer"></div>
         <div class="info-section">
             <div class="text">
                 <h2>What is this website?</h2>
@@ -149,19 +144,18 @@
                 <p>as what you can expect from me in the future!</p>
             </div>
         </div>
-        <div class="spacer" style="height: 100px;"></div>
         <div class="info-section-2">
             <img src="FirelynImage.png" alt="Image" width="200" height="200">
             <div class="text">
                 <h2>FIRELYN</h2>
                 <p>Heya, I am a small developer that has too much games!</p>
                 <p>Age? Ehr, no thanks won't share.</p>
-                <p>Every so 2-4 months? I'll make a news letter to update you guys.</p>
+                <p>Every so 2-4 months? I'll make a newsletter to update you guys.</p>
                 <p>Anyway! I hope you'll have fun looking :)</p>
             </div>
         </div>
     </div>
-    <div class="downbar">
+    <div class="footer">
         Firelyn's Showtime 2025
     </div>
 </body>
