@@ -105,6 +105,7 @@
             justify-content: center;
             margin-top: 20px;
             font-family: 'PixelOperatorBold', Arial, sans-serif;
+            flex-direction: column;
         }
         .about-me h2 {
             font-size: 32px;
@@ -112,29 +113,31 @@
             font-weight: normal;
         }
         .about-me img {
-            margin-right: 20px;
+            margin-bottom: 20px;
         }
         .about-me .text {
-            text-align: left;
+            text-align: center;
         }
         .about-me .text p {
             font-family: 'PixelOperatorRegular', Arial, sans-serif;
             font-size: 24px;
-            margin: 0;
+            margin: 0 0 10px;
         }
         .social-links {
-            margin-top: 20px;
             font-family: 'PixelOperatorBold', Arial, sans-serif;
             text-align: center;
+            margin-top: 20px;
         }
         .social-links a {
             color: white;
             text-decoration: none;
             margin: 0 10px;
             font-size: 24px;
+            text-transform: uppercase;
+            transition: transform 0.3s;
         }
         .social-links a:hover {
-            text-decoration: underline;
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -168,11 +171,10 @@
                 <p>Every so 2-4 months? I'll make a newsletter to update you guys.</p>
                 <p>Anyway! I hope you'll have fun looking :)</p>
             </div>
-        </div>
-        <div class="spacer" style="height: 50px;"></div>
-        <div class="social-links">
-            <a href="https://www.youtube.com/@Firerinalyn" target="_blank">YouTube</a>
-            <a href="https://www.roblox.com/users/2650689611/profile" target="_blank">Roblox</a>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@Firerinalyn" target="_blank">YouTube</a>
+                <a href="https://www.roblox.com/users/2650689611/profile" target="_blank">Roblox</a>
+            </div>
         </div>
     </div>
     <div class="footer">
