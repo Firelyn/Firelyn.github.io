@@ -58,12 +58,21 @@
         .content {
             flex: 1;
             padding: 100px 20px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         .main-title {
             font-size: 56px;
             margin-bottom: 20px;
             color: yellow;
             text-align: center;
+        }
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .spacer {
             height: 25px;
@@ -122,40 +131,42 @@
         <div class="main-title">
             GAMES
         </div>
-        <div class="game">
-            <img src="IOEImage.png" alt="Increment of Everything Image">
-            <div class="details">
-                <h2>INCREMENT OF EVERYTHING</h2>
-                <p>INCREMENTAL</p>
-                <p>STATUS:</p>
-                <p class="status-released">RELEASED</p>
+        <div class="game-container">
+            <div class="game">
+                <img src="IOEImage.png" alt="Increment of Everything Image">
+                <div class="details">
+                    <h2>INCREMENT OF EVERYTHING</h2>
+                    <p>INCREMENTAL</p>
+                    <p>STATUS:</p>
+                    <p class="status-released">RELEASED</p>
+                </div>
             </div>
-        </div>
-        <div class="game">
-            <img src="TaskEscapeImage.png" alt="Task Escape Image">
-            <div class="details">
-                <h2>TASK ESCAPE</h2>
-                <p>RETRO, HORROR</p>
-                <p>STATUS:</p>
-                <p class="status-released">RELEASED</p>
+            <div class="game">
+                <img src="TaskEscapeImage.png" alt="Task Escape Image">
+                <div class="details">
+                    <h2>TASK ESCAPE</h2>
+                    <p>RETRO, HORROR</p>
+                    <p>STATUS:</p>
+                    <p class="status-released">RELEASED</p>
+                </div>
             </div>
-        </div>
-        <div class="game">
-            <img src="NoImage.png" alt="Raise a Puppy Image">
-            <div class="details">
-                <h2>RAISE A PUPPY</h2>
-                <p>INCREMENTAL</p>
-                <p>STATUS:</p>
-                <p class="status-soon">SOON</p>
+            <div class="game">
+                <img src="NoImage.png" alt="Raise a Puppy Image">
+                <div class="details">
+                    <h2>RAISE A PUPPY</h2>
+                    <p>INCREMENTAL</p>
+                    <p>STATUS:</p>
+                    <p class="status-soon">SOON</p>
+                </div>
             </div>
-        </div>
-        <div class="game">
-            <img src="NoImage.png" alt="Waylight Image">
-            <div class="details">
-                <h2>WAYLIGHT</h2>
-                <p>RPG</p>
-                <p>STATUS:</p>
-                <p class="status-future">UNKNOWN</p>
+            <div class="game">
+                <img src="NoImage.png" alt="Waylight Image">
+                <div class="details">
+                    <h2>WAYLIGHT</h2>
+                    <p>RPG</p>
+                    <p>STATUS:</p>
+                    <p class="status-future">UNKNOWN</p>
+                </div>
             </div>
         </div>
     </div>
