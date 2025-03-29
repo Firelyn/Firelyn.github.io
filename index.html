@@ -105,17 +105,13 @@
             justify-content: center;
             margin-top: 20px;
             font-family: 'PixelOperatorBold', Arial, sans-serif;
-        }
-        .about-me h2 {
-            font-size: 32px;
-            margin: 0 20px 0 0;
-            font-weight: normal;
+            flex-direction: column;
         }
         .about-me img {
-            margin-right: 20px;
+            margin-bottom: 20px;
         }
         .about-me .text {
-            text-align: left;
+            text-align: center;
         }
         .about-me .text p {
             font-family: 'PixelOperatorRegular', Arial, sans-serif;
@@ -133,8 +129,9 @@
             margin: 0 10px;
             font-size: 24px;
         }
-        .social-links a:hover {
-            text-decoration: underline;
+        .social-links a img {
+            width: 32px;
+            height: 32px;
         }
     </style>
 </head>
@@ -168,11 +165,14 @@
                 <p>Every so 2-4 months? I'll make a newsletter to update you guys.</p>
                 <p>Anyway! I hope you'll have fun looking :)</p>
             </div>
-        </div>
-        <div class="spacer" style="height: 50px;"></div>
-        <div class="social-links">
-            <a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a>
-            <a href="https://www.roblox.com/users/yourprofile" target="_blank">Roblox</a>
+            <div class="social-links">
+                <a href="https://www.youtube.com/yourchannel" target="_blank">
+                    <img src="YouTubeIcon.png" alt="YouTube">
+                </a>
+                <a href="https://www.roblox.com/users/yourprofile" target="_blank">
+                    <img src="RobloxIcon.png" alt="Roblox">
+                </a>
+            </div>
         </div>
     </div>
     <div class="footer">
